@@ -1,0 +1,32 @@
+
+#menu {
+    width: 25%;
+    float: left;
+    background-color: lightgray;
+}
+
+#contenido {
+    width: 75%;
+    float: left;
+}
+#pie {
+    clear: both;
+}
+
+/*Paso 1: mueve el menu al lado derecho */
+#menu {
+    float: right;
+}
+/* elimina el menu */
+#menu {
+    display: none;
+}
+/* Paso 3: Elimina el pie de pagina */
+#pie {
+    display: none;
+}
+
+/* Paso 4: Elimina la cabecera */
+#cabecera {
+    display: none;
+}
